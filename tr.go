@@ -7,9 +7,9 @@ package gettext
 import (
 	"encoding/json"
 
-	"github.com/chai2010/gettext-go/mo"
-	"github.com/chai2010/gettext-go/plural"
-	"github.com/chai2010/gettext-go/po"
+	"github.com/ortfo/gettext/mo"
+	"github.com/ortfo/gettext/plural"
+	"github.com/ortfo/gettext/po"
 )
 
 var nilTranslator = &translator{

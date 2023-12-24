@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build ignore
 // +build ignore
 
 package main
@@ -9,7 +10,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/chai2010/gettext-go"
+	"github.com/ortfo/gettext"
 )
 
 func main() {

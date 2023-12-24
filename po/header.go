@@ -15,19 +15,19 @@ import (
 //
 // See http://www.gnu.org/software/gettext/manual/html_node/Header-Entry.html#Header-Entry
 type Header struct {
-	Comment                        // Header Comments
-	ProjectIdVersion        string // Project-Id-Version: PACKAGE VERSION
-	ReportMsgidBugsTo       string // Report-Msgid-Bugs-To: FIRST AUTHOR <EMAIL@ADDRESS>
-	POTCreationDate         string // POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE
-	PORevisionDate          string // PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
-	LastTranslator          string // Last-Translator: FIRST AUTHOR <EMAIL@ADDRESS>
-	LanguageTeam            string // Language-Team: golang-china
-	Language                string // Language: zh_CN
-	MimeVersion             string // MIME-Version: 1.0
-	ContentType             string // Content-Type: text/plain; charset=UTF-8
-	ContentTransferEncoding string // Content-Transfer-Encoding: 8bit
-	PluralForms             string // Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;
-	XGenerator              string // X-Generator: Poedit 1.5.5
+	Comment                              // Header Comments
+	ProjectIdVersion        string       // Project-Id-Version: PACKAGE VERSION
+	ReportMsgidBugsTo       string       // Report-Msgid-Bugs-To: FIRST AUTHOR <EMAIL@ADDRESS>
+	POTCreationDate         string       // POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE
+	PORevisionDate          string       // PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+	LastTranslator          string       // Last-Translator: FIRST AUTHOR <EMAIL@ADDRESS>
+	LanguageTeam            string       // Language-Team: golang-china
+	Language                string       // Language: zh_CN
+	MimeVersion             string       // MIME-Version: 1.0
+	ContentType             string       // Content-Type: text/plain; charset=UTF-8
+	ContentTransferEncoding string       // Content-Transfer-Encoding: 8bit
+	PluralForms             string       // Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;
+	XGenerator              string       // X-Generator: Poedit 1.5.5
 	UnknowFields            map[string]string
 }
 

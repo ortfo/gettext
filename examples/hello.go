@@ -8,8 +8,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/chai2010/gettext-go"
-	"github.com/chai2010/gettext-go/examples/hi"
+	"github.com/ortfo/gettext"
+	"github.com/ortfo/gettext/examples/hi"
 )
 
 func init() {

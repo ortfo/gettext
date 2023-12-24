@@ -6,8 +6,9 @@
 Package mo provides support for reading and writing GNU MO file.
 
 Examples:
+
 	import (
-		"github.com/chai2010/gettext-go/mo"
+		"github.com/ortfo/gettext/mo"
 	)
 
 	func main() {

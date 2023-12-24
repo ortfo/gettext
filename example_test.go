@@ -9,7 +9,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/chai2010/gettext-go"
+	"github.com/ortfo/gettext"
 )
 
 func Example() {
